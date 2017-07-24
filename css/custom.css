@@ -501,6 +501,8 @@ nav.navbar-default .navbar-nav li a:hover{
 .driver-recruiting {
 	height: 480px;
 	overflow: hidden;
+	display: block;
+	width: 100%;
 }
 .recruiting-caption {
 	max-width: 450px;
@@ -533,7 +535,7 @@ nav.navbar-default .navbar-nav li a:hover{
 		padding-top: 20px;
 	}
 	.business-solution {
-		height: 360px;
+		height: 400px;
 	}
 }
 
@@ -621,6 +623,9 @@ nav.navbar-default .navbar-nav li a:hover{
 	.business-contains {
 		padding-top: 10px;
 		padding-bottom: 30px;
+	}
+	.business-contains .btn {
+		margin-top: 8px;
 	}
 }
 @media(max-width: 767px) {
@@ -800,14 +805,14 @@ input,
 
 
 /* media query */
-@media (min-width: 768) and (max-width: 1024) and (orientation: portrait){
-sections{
-	-webkit-background-size: auto 100% !important;
-	-moz-background-size: auto 100% !important;
-	-o-background-size: auto 100% !important;
-	background-size: auto 100% !important;
-	background-attachment:scroll !important;
-}
+@media (min-width: 768px) and (max-width: 1024px) {
+	sections{
+		-webkit-background-size: auto 100% !important;
+		-moz-background-size: auto 100% !important;
+		-o-background-size: auto 100% !important;
+		background-size: auto 100% !important;
+		background-attachment:scroll !important;
+	}
 }
 @media (max-width: 991px) {
 	#subheader{
@@ -845,6 +850,9 @@ sections{
 		padding:0;
 		padding-bottom: 30px;
 		padding-top: 20px;
+	}
+	.driver-income .business-caption h2 {
+		max-width: 100%;
 	}
 }
 @media(max-width: 600px){
