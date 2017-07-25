@@ -19,7 +19,6 @@
     color: #FFFFFF;
     font-size: 14px;
     text-align: center;
-    /*background-color: #375988;*/
     cursor: pointer;
     transform: translate(0, -50%);
     -o-transform: translate(0, -50%);
@@ -80,7 +79,6 @@ ul.slimmenu.collapsed li .sub-toggle {
 }
 ul.slimmenu li {
     position: relative;
-    /*float: left;*/
     display: inline-block;
 }
 ul.slimmenu li ul {
