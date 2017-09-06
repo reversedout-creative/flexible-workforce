@@ -571,6 +571,10 @@ ul.slimmenu li.has-submenu:hover i{
 	right: -68px;
 	padding-top: 10px;
 }
+.revolutionize span.overlay-image ,
+.driver-income span.overlay-image {
+	position: relative;
+}
 
 
 
@@ -748,6 +752,9 @@ ul.slimmenu li.has-submenu:hover i{
 .contact-section.sections {
 	padding: 0;
 }
+.contact-section {
+	background-color: ;
+}
 .contact-left-image:before {
 	content: ' ';
 	position: absolute;
@@ -846,6 +853,22 @@ input,
 	color: #ffffff;
 	padding: 0;
 	font-size: 14px;
+}
+.social-media {
+	display: inline-block;
+	vertical-align: top;
+}
+.social-media {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 15px;
+}
+.social-media li a{
+	color: #898989;
+	padding: 8px;
+}
+.social-media li a:hover {
+	color: #ffffff;
 }
 
 /* services section side background */

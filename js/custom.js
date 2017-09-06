@@ -8,6 +8,12 @@
 		indentChildren: true,
 		childrenIndenter: '<i class="fa fa-chevron-right"></i>'
 	});
+	// Close Effect Menu
+	$(function() {
+		$('.collapse-button').click(function() {
+			$('.collapse-button').toggleClass('close-menu');
+		});
+	});
 	
 	
 	/* --------------------------------------------------
